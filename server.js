@@ -9,7 +9,7 @@ dotenv.config()
 
 const T = new Twit( config );
 
-var emojiArray = ['💙', '🥶', '🦋', '🧢', '🚙', '🔵', '👖', '👕', '🔹', '🌀', '🧵', '🟦', '📘', '🏧'];
+var emojiArray = ['💙', '🥶', '🦋', '🧢', '🚙', '🔵', '👖', '👕', '🔹', '🌀', '🧵', '🟦', '📘', '🏧']; // add whatever text you want here
 let randomEmoji = emojiArray[Math.floor(Math.random() * emojiArray.length)];
 
 function randomFromArray( images ){
