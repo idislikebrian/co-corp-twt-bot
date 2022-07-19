@@ -12,6 +12,7 @@
   "dependencies": {
     "cron": "^2.0.0",
     "dotenv": "^16.0.1",
+    "fs-extra": "^10.1.0",
     "twit": "^2.2.11"
   }
 }
